@@ -608,3 +608,7 @@ main .form form .horizontal {
     flex-direction: row;
     gap: inherit;
 }
+
+main .form form:not(.edit-mode) .placeholder-text{
+    display: none ;
+}
