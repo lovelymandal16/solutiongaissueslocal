@@ -123,9 +123,9 @@ export class WizardLayout {
       li.innerHTML = child.querySelector('legend')?.innerHTML || '';
       li.className = 'wizard-menu-item';
       li.dataset.index = index;
-      if (child.hasAttribute('data-visible')) {
+     // if (child.hasAttribute('data-visible')) {
         li.dataset.visible = child.dataset.visible;
-      }
+     // }
       ul.append(li);
     });
     return ul;
