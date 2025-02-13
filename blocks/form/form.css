@@ -612,3 +612,9 @@ main .form form .horizontal {
 main .form form:not(.edit-mode) .placeholder-text{
     display: none ;
 }
+main .form form .placeholder-text{
+    color: grey; 
+    font-size: 0.9em; 
+    opacity: 0.7;
+    user-select: none;
+}
