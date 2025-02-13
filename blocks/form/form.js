@@ -243,7 +243,7 @@ function createPlainText(fd) {
   if(!paragraph.textContent){
     const placeholder = document.createElement('p');
     placeholder.classList.add("placeholder-text");
-    placeholder.textContent = 'Text';
+    placeholder.textContent = 'Text...';
     paragraph.appendChild(placeholder);
   }
   const wrapper = createFieldWrapper(fd);
